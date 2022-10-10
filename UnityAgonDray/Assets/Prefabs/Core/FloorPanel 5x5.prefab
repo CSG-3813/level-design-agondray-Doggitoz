@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3784189639594091146}
   - component: {fileID: 3784189639594091147}
   m_Layer: 0
-  m_Name: FloorPanel
+  m_Name: FloorPanel 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
