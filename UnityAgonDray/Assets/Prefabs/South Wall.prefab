@@ -625,7 +625,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_Textures0.Array.data[16].x
-      value: -5.241922
+      value: -5.141922
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
@@ -635,7 +635,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_Textures0.Array.data[17].x
-      value: -0.041922092
+      value: -0.141922
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
@@ -645,7 +645,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_Textures0.Array.data[18].x
-      value: -5.241922
+      value: -5.141922
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
@@ -655,7 +655,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_Textures0.Array.data[19].x
-      value: -0.041922092
+      value: -0.141922
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
@@ -665,7 +665,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_Textures0.Array.data[20].x
-      value: 5.241922
+      value: 5.141922
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
@@ -675,7 +675,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_Textures0.Array.data[21].x
-      value: 0.041922092
+      value: 0.141922
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
@@ -685,7 +685,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_Textures0.Array.data[22].x
-      value: 5.241922
+      value: 5.141922
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
@@ -695,7 +695,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_Textures0.Array.data[23].x
-      value: 0.041922092
+      value: 0.141922
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118256, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
@@ -770,7 +770,7 @@ PrefabInstance:
     - target: {fileID: 5845681184538118257, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.06888735
       objectReference: {fileID: 0}
     - target: {fileID: 5845681184538118257, guid: eb3eb27254489514f8a3b9a3e9c71e11,
         type: 3}
