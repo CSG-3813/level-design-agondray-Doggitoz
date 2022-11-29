@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8168798869631864110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.06, y: 0, z: 0}
+  m_LocalScale: {x: 1.025, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3034719960207729671}
@@ -49,6 +49,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VersionIndex
       value: 4207
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b72e28bf29a9c2241a33805041cfb30a,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[16].x
+      value: -5.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b72e28bf29a9c2241a33805041cfb30a,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[17].x
+      value: -0.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b72e28bf29a9c2241a33805041cfb30a,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[18].x
+      value: -5.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b72e28bf29a9c2241a33805041cfb30a,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[19].x
+      value: -0.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b72e28bf29a9c2241a33805041cfb30a,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[20].x
+      value: 5.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b72e28bf29a9c2241a33805041cfb30a,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[21].x
+      value: 0.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b72e28bf29a9c2241a33805041cfb30a,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[22].x
+      value: 5.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b72e28bf29a9c2241a33805041cfb30a,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[23].x
+      value: 0.141922
       objectReference: {fileID: 0}
     - target: {fileID: 6659656747768102362, guid: b72e28bf29a9c2241a33805041cfb30a,
         type: 3}
@@ -103,7 +143,7 @@ PrefabInstance:
     - target: {fileID: 8753583619175242679, guid: b72e28bf29a9c2241a33805041cfb30a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 8753583619175242679, guid: b72e28bf29a9c2241a33805041cfb30a,
         type: 3}
@@ -164,6 +204,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VersionIndex
       value: 4207
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b390f72009bc3914d8f7afba75ef9ba9,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[16].x
+      value: -5.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b390f72009bc3914d8f7afba75ef9ba9,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[17].x
+      value: -0.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b390f72009bc3914d8f7afba75ef9ba9,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[18].x
+      value: -5.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b390f72009bc3914d8f7afba75ef9ba9,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[19].x
+      value: -0.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b390f72009bc3914d8f7afba75ef9ba9,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[20].x
+      value: 5.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b390f72009bc3914d8f7afba75ef9ba9,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[21].x
+      value: 0.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b390f72009bc3914d8f7afba75ef9ba9,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[22].x
+      value: 5.141922
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659656747768102343, guid: b390f72009bc3914d8f7afba75ef9ba9,
+        type: 3}
+      propertyPath: m_Textures0.Array.data[23].x
+      value: 0.141922
       objectReference: {fileID: 0}
     - target: {fileID: 6659656747768102362, guid: b390f72009bc3914d8f7afba75ef9ba9,
         type: 3}
