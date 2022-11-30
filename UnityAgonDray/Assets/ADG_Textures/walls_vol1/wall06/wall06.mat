@@ -124,7 +124,7 @@ Material:
     - _ShadeRange: 0.02
     - _ShadingStrength: 1
     - _Shininess: 0.82554394
-    - _Smoothness: 0.236
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
