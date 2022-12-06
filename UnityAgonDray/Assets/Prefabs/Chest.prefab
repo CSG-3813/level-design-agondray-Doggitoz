@@ -42,7 +42,7 @@ Light:
   m_GameObject: {fileID: 4307320369133646368}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 3
+  m_Type: 4
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
@@ -84,7 +84,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AnimParameter: OpenChest
+  key: {fileID: 8958355762568554765, guid: f705f3da0693f3249aba4fe5fcf3555c, type: 3}
 --- !u!1001 &2001817810163201000
 PrefabInstance:
   m_ObjectHideFlags: 0

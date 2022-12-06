@@ -7,6 +7,7 @@ public class ChestLogic : MonoBehaviour
     public string AnimParameter;
     public GameObject key;
     Animator anim;
+    bool opened = false;
 
     private void Awake()
     {
@@ -18,7 +19,8 @@ public class ChestLogic : MonoBehaviour
         if (other.tag == "Player")
         {
             anim.SetTrigger(AnimParameter);
-            SpawnKey();
+            if (!opened) SpawnKey();
+            opened = true;
         }
     }
 
