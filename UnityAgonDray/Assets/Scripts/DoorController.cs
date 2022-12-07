@@ -14,6 +14,7 @@ public class DoorController : MonoBehaviour
 
     bool lockedOne = false;
     bool lockedTwo = false;
+    bool isOpen = false;
     void Start()
     {
         door = transform.gameObject;
@@ -28,6 +29,15 @@ public class DoorController : MonoBehaviour
 
     public void OpenDoor()
     {
+        if (isOpen)
+        {
+            return;
+        }
+        //LOGIC FOR LOCK DOOR
+
+
+        isOpen = true;
+
         anim.SetTrigger("OpenDoor");
         AS.clip = DoorOpenClip;
         AS.PlayOneShot(DoorOpenClip);
@@ -35,7 +45,7 @@ public class DoorController : MonoBehaviour
 
     public void CloseDoor()
     {
-        door.SetActive(true);
+        
     }
 
     public void UnlockOne()

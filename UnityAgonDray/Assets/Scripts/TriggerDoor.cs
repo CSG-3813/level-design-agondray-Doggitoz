@@ -13,7 +13,7 @@ public class TriggerDoor : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        script.CloseDoor();
+        // script.CloseDoor();
     }
 
 }
