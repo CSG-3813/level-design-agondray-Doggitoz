@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ChestLogic : MonoBehaviour
 {
+    public string KeyColor;
+    public int KeyNumber;
     public string AnimParameter;
     public GameObject key;
     Animator anim;
@@ -18,17 +20,25 @@ public class ChestLogic : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            anim.SetTrigger(AnimParameter);
-            if (!opened) SpawnKey();
-            opened = true;
+            if (!opened)
+            {
+                anim.SetTrigger(AnimParameter);
+                SpawnKey();
+                opened = true;
+            }
         }
+    }
+
+    public void CloseChest()
+    {
+        anim.SetTrigger("CloseChest");
     }
 
     //Function thats called after animation has finished
     public void SpawnKey()
     {
         Instantiate(key);
-        key.transform.position = transform.position;
+        key.GetComponent<Key>().Init(KeyColor, KeyNumber, transform.gameObject);
     }
 
 }

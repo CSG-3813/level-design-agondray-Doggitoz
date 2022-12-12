@@ -8,7 +8,7 @@ public class TriggerDoor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        script.OpenDoor();
+        script.TryOpenDoor();
     }
 
     private void OnTriggerExit(Collider other)

@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f22cf065c993dc441b57588273a8d970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isLocked: 0
+  isLocked: 1
   DoorOpenClip: {fileID: 8300000, guid: 87e7f240969becd41b9d35ea744983fd, type: 3}
   DoorCloseClip: {fileID: 0}
 --- !u!82 &1086098265382712670

@@ -8,7 +8,7 @@ public class PlayerManager : MonoBehaviour
     static private PlayerManager pm; 
     [HideInInspector] static public PlayerManager PM { get { return pm; } }
 
-    [SerializeField] GameObject Player;
+    public GameObject Player { get; private set; }
 
     void CheckManagerIsInScene()
     {

@@ -27,17 +27,23 @@ public class DoorController : MonoBehaviour
         }
     }
 
-    public void OpenDoor()
+    public void TryOpenDoor()
     {
         if (isOpen)
         {
             return;
         }
+
         //LOGIC FOR LOCK DOOR
+        if (lockedOne == false && lockedTwo == false)
+        {
+            OpenDoor();
+        }
+    }
 
-
+    public void OpenDoor()
+    {
         isOpen = true;
-
         anim.SetTrigger("OpenDoor");
         AS.clip = DoorOpenClip;
         AS.PlayOneShot(DoorOpenClip);
@@ -45,7 +51,7 @@ public class DoorController : MonoBehaviour
 
     public void CloseDoor()
     {
-        
+        anim.SetTrigger("CloseDoor");
     }
 
     public void UnlockOne()

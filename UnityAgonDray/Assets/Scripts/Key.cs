@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-
+    public AudioClip keyCollect;
+    string color;
+    int keyNum;
+    GameObject chest;
+    ChestLogic chestScript;
     Animator anim;
 
     private void Awake()
@@ -20,11 +24,24 @@ public class Key : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void Init(string newColor, int newKeyNum, GameObject chest)
     {
-        
+        color = newColor;
+        keyNum = newKeyNum;
+        this.chest = chest;
+        chestScript = chest.GetComponent<ChestLogic>();
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        Debug.Log("PICKUP KEY");
+        // THIS WASNT WORKING WTF chestScript.CloseChest();
+        GameManager.GM.UnlockDoor(color, keyNum);
+        AudioManager.AM.PlayEffect(keyCollect);
+        //Other logic with UI
+        Destroy(this.gameObject);
     }
 }
