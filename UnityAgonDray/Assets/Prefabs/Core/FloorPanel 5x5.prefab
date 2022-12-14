@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3784189639594091157}
   - component: {fileID: 3784189639594091146}
   - component: {fileID: 3784189639594091147}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FloorPanel 5x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 4602889815039093068}
   - component: {fileID: 1119959032485535255}
   - component: {fileID: 5385327973729756880}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}

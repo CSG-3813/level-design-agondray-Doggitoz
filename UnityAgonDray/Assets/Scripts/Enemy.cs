@@ -39,6 +39,7 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionStay(Collision collision)
     {
+        Debug.Log(collision.gameObject.name);
         if (collision.gameObject.CompareTag("Player"))
         {
             //Deal damage to player
