@@ -33,9 +33,10 @@ public class Key : MonoBehaviour
         keyNum = newKeyNum;
         this.chest = chest;
         chestScript = chest.GetComponent<ChestLogic>();
+        CollectKey();
     }
 
-    private void OnTriggerStay(Collider other)
+    void CollectKey()
     {
         Debug.Log("PICKUP KEY");
         // THIS WASNT WORKING WTF chestScript.CloseChest();
@@ -43,5 +44,10 @@ public class Key : MonoBehaviour
         AudioManager.AM.PlayEffect(keyCollect);
         //Other logic with UI
         Destroy(this.gameObject);
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        CollectKey();
     }
 }

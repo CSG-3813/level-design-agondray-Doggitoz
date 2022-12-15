@@ -8,7 +8,8 @@ public class TriggerDoor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        script.TryOpenDoor();
+        if (other.gameObject.CompareTag("Player"))
+            script.TryOpenDoor();
     }
 
     private void OnTriggerExit(Collider other)

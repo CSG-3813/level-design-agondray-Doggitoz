@@ -17,7 +17,7 @@ public class PuzzleScript : MonoBehaviour
     public string wallColliderTag;
     public bool randomizesOnFailure = false;
     public bool printsFailureMessages = false;
-    FinishGame endCondition;
+    public FinishGame endCondition;
 
     PuzzleState state;
     Direction currDir = Direction.FORWARD;
